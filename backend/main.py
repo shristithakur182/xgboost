@@ -38,7 +38,7 @@ class Customer(BaseModel):
 @app.get("/")
 def home():
     return {
-        "message": "Customer Churn Prediction API is running"
+        "message": "Customer Churn Prediction API is Running"
     }
 
 
